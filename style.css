@@ -1,0 +1,213 @@
+*{
+    margin:0;
+    padding:0;
+}
+body{
+    display: flex;
+    align-items:center;
+    justify-content:center;
+    height:100vh;
+    overflow: hidden;
+    background-color: rgb(238, 202, 232);
+    
+
+}
+h1{
+ margin-left:3em;
+ font-size:xx-large; 
+ text-shadow:
+ 0.08em 0.15em 0 rgb(10, 10, 10),
+ 0.15em 0.07em 0 rgb(71, 37, 6),
+ 0.08em 0.13em 0 rgb(11, 1, 27);
+
+}
+.container{
+    box-shadow:8px 8px 9px black;
+    color:white;
+    padding:2em;
+    /* opacity:1; */
+    outline: 2px solid rgb(3, 93, 57);
+    outline-offset:1px;
+    border-width: 8px;
+    border-radius:10px;
+    width:100%;
+    max-width:420px;
+    margin:1em;
+    background-image: linear-gradient(to top, rgba(255,0,0,0), rgb(79, 3, 54));
+}
+label{
+    margin-left:146px;
+    margin-bottom: 90px;
+    /* margin: 90px 20px 50px 160px; */
+    color:white;
+    margin-top:30px;
+    font-size: x-large;
+    font-weight:bold ;
+    text-shadow:
+ 0.08em 0.09em 0 rgb(4, 84, 36),
+ 0.05em 0.08em 0 rgb(218, 112, 14),
+ 0.08em 0.09em 0 rgb(127, 70, 225);
+}
+.description{
+    margin: 30px 38px;
+}
+#error-message{
+    color:rgb(138, 11, 11);
+    font-size: x-large;
+    margin-left:122px;
+    margin-right:65px;
+}
+#bill-amount,#cash-given{
+    border:none;
+    outline:none;
+    padding:0.4em 1.5em;
+    border-radius: 24px;
+    background:rgb(25, 22, 22);
+    opacity:0.6;
+    color:white;
+    font-family:inherit;
+    font-size:105%;
+    width:85%;
+    margin:15px;
+
+}
+#check-button{
+    margin:20px 60px 22px 180px;
+    border-radius: 4px;
+    padding:7px;
+    width:5em;
+    font-size: 90;
+    box-shadow:5px 5px 5px black;
+}
+table,
+      th,
+      td {
+        padding: 10px;
+        border: 1px solid black;
+        border-collapse: collapse;
+        margin-top:10px;
+        color:black;
+        max-width:85%;
+        margin:15px;
+      }
+
+      @media (max-width:490px){
+       .container{
+        width:60vw;
+        height:58vh;
+        /* box-sizing:border-box; */
+        margin-left:20px;
+        margin-right:20px;
+       }
+       .description{
+        margin: 9px 1px 7px 1px;
+       }
+       h1{
+        margin: 0px 2px 1px 35px;
+        font-weight:20;
+       }
+       label{
+        margin:1px 6px 12px 50px; 
+        color:white;
+        font-size: x-large;
+       }
+
+    #bill-amount,#cash-given{
+        
+        padding:0.4em 1.5em;
+        border-radius: 24px;
+        font-weight:bold;
+        width:85%;
+        margin:0px 0px 0px 1px;
+        height:12px;
+    }
+    #check-button{
+        margin:7px 140px 9px 100px;
+        border-radius: 4px;
+        padding:6px;
+        height:2.3em;
+        width:55px;
+        font-size: 90;
+        box-shadow:5px 5px 5px black;
+    
+    }
+    #error-message{
+        font-size: large;
+        margin-left:16%;
+        margin-right:10%;
+    }
+    table,
+      th,
+      td {
+        padding: 2px;
+        border: 1px solid black;
+        border-collapse: collapse;
+        margin:24px 2px 2px 4px;
+        color:black;
+        max-width:99%;
+      }
+
+ }
+
+      @media (max-width:389px){
+        .container{
+            width:66vw;
+            height:77vh;
+            /* box-sizing:border-box; */
+            margin-left:20px;
+            margin-right:20px;
+           }
+           .description{
+            margin: 10px 0px 10px 10px;
+           }
+           h1{
+            margin: 0px 2px 1px 15px;
+            font-weight:10;
+           }
+           label{
+            margin:1px 6px 12px 50px; 
+            color:white;
+            font-size: x-large;
+           }
+    
+        #bill-amount,#cash-given{
+            
+            padding:0.4em 1.5em;
+            border-radius: 24px;
+            font-weight:bold;
+            width:85%;
+            margin:0px 0px 0px 1px;
+            height:12px;
+        }
+        #check-button{
+            margin:7px 100px 9px 70px;
+            margin-left: 40%;
+            margin-right:3%;
+            border-radius: 4px;
+            padding:6px;
+            height:2.3em;
+            width:55px;
+            font-size: 90;
+            box-shadow:5px 5px 5px black;
+        
+        }
+        .return-amt{
+            margin:80px 2px 20px 10px;
+        }
+        #error-message{
+            font-size: large;
+            margin-left:4%;
+            margin-right:3%;
+        }
+        table,
+          th,
+          td {
+            padding: 0.3px;
+            border: 1px solid black;
+            border-collapse: collapse;
+            margin:20px 1px 2px 1px;
+            color:black;
+            max-width:95%;
+          }
+    
+    }
